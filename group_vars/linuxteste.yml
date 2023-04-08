@@ -1,0 +1,10 @@
+ansible_ssh_port: 22
+ansible_ssh_user: devops
+ansible_ssh_pass: suporte
+ansible_become: yes
+ansible_become_method: sudo
+ansible_become_user: root
+ansible_become_pass: suporte
+ansible_conection: ssh
+
+#Como esse é um explo para teste, estou passando usuário e senha em texto plano, o ideal que você melhore a segura das informações tornando elas sigilosas.

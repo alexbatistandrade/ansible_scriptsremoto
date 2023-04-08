@@ -1,0 +1,4 @@
+- name: Alterar senha do usuário
+  user:
+   name: spartas
+   password: "{{ password | password_hash('sha256') }}"
