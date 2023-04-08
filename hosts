@@ -10,6 +10,6 @@
 
 # Ex 1: Ungrouped hosts, specify before any group headers.
 
-[winteste]
-windows10 ansible_host=192.168.0.7
+[linuxteste]
+Linux ansible_host=192.168.0.8
 
